@@ -1,0 +1,15 @@
+.col-3 {
+    margin: 0 auto;
+    /* border: 3px solid green; */
+}
+.gameContainer{
+    background-color: #c9c79a;
+    margin: 0% auto;
+    padding: 15px;
+}
+.gameIcon{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    padding: 5%;
+}
