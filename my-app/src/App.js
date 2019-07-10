@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Game from './components/Game/Game';
+import Teams from './components/Teams/Teams';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Game />
+      <Teams />
       <Footer />
     </div>
   );

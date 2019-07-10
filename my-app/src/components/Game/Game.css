@@ -3,7 +3,7 @@
     /* border: 3px solid green; */
 }
 .gameContainer{
-    background-color: #c9c79a;
+    background-color: #bec3cb;
     margin: 0% auto;
     padding: 15px;
 }
@@ -12,4 +12,8 @@
     width: 200px;
     margin: 0 auto;
     padding: 5%;
+}
+
+h2{
+    margin: 0 auto;
 }

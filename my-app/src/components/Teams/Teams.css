@@ -1,0 +1,17 @@
+h2{
+    margin: 0 auto;
+}
+.teamIcon{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.teamContainer{
+    background-color: #6eb56d;
+    margin: 0% auto;
+    padding: 15px;
+    min-height: 550px;
+    text-align: center;
+}
