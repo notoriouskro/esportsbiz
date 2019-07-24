@@ -2,17 +2,11 @@
     margin: 0 auto;
     /* border: 3px solid green; */
 }
-.gameContainer{
+.videoContainer{
     background-color: #bec3cb;
-    background-image: linear-gradient(to bottom right, rgb(115, 136, 244), rgb(122, 235, 118));
+    background-image: linear-gradient(to right, rgb(115, 136, 244), rgb(122, 235, 118));
     margin: 0% auto;
     padding: 15px;
-}
-.gameIcon{
-    height: 200px;
-    width: 200px;
-    margin: 0 auto;
-    padding: 5%;
 }
 
 h1{

@@ -1,5 +1,6 @@
 h2{
     margin: 0 auto;
+    font-family: 'Permanent Marker', cursive;
 }
 .teamIcon{
     height: 200px;
@@ -10,8 +11,9 @@ h2{
 
 .teamContainer{
     background-color: #6eb56d;
+    background-image: linear-gradient(to bottom left,  rgb(122, 235, 118), rgb(115, 136, 244));
     margin: 0% auto;
-    padding: 15px;
+    padding: 150px;
     min-height: 550px;
     text-align: center;
 }
