@@ -11,7 +11,7 @@ h2{
 
 .teamContainer{
     background-color: #6eb56d;
-    background-image: linear-gradient(to bottom left,  rgb(122, 235, 118), rgb(115, 136, 244));
+    background-image: linear-gradient(rgb(122, 235, 118), rgb(115, 136, 244));
     margin: 0% auto;
     padding: 150px;
     min-height: 550px;

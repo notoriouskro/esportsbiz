@@ -4,7 +4,7 @@
 }
 .gameContainer{
     background-color: #bec3cb;
-    background-image: linear-gradient(to bottom right, rgb(115, 136, 244), rgb(122, 235, 118));
+    background-image: linear-gradient(rgb(115, 136, 244), rgb(122, 235, 118));
     margin: 0% auto;
     padding: 15px;
 }
