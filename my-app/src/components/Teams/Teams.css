@@ -3,10 +3,10 @@ h2{
     font-family: 'Permanent Marker', cursive;
 }
 .teamIcon{
-    height: 200px;
-    width: 200px;
+    height: 80%;
+    width: 80%;
     margin: 0 auto;
-    padding: 5%;
+    padding: 10%;
 }
 
 .teamContainer{

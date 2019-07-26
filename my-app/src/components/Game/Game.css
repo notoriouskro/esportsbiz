@@ -9,8 +9,8 @@
     padding: 15px;
 }
 .gameIcon{
-    height: 200px;
-    width: 200px;
+    height: 65%;
+    width: 65%;
     margin: 0 auto;
     padding: 5%;
 }
@@ -19,3 +19,23 @@ h1{
     margin: 0 auto;
     font-family: 'Bangers', cursive;
 }
+
+button {
+    background-color: rgb(27, 10, 77); 
+    border: solid black 2px;
+    color: white;
+    padding: 12px 32px;
+    margin: 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Bangers', cursive;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+  }
+
+  .row{
+    text-align: center;
+  }
