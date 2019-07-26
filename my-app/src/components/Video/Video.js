@@ -8,6 +8,7 @@ const Video = () => {
     return (
         <div className="videoContainer">
             <div className="row"><h1>Watch the action!</h1></div>
+            <br></br>
             <div className="row">
                 <div className="col-3">
                     <div className="row">
