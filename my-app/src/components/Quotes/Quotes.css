@@ -1,44 +1,15 @@
 .quote{
-    font-size: 45px;
+    font-size: 200%;
     color: white;
     font-family: 'Abril Fatface', cursive;
-    position: absolute;
-    top:0;
-    left:0;
-    padding-top:13.5%;
-    padding-left:10.5%;
-    text-shadow: -3px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
-    }
-.quote2{
-    font-size: 45px;
-    color: white;
-    font-family: 'Abril Fatface', cursive;
-    position: absolute;
+    position: relative;
     top:0;
     right:0;
-    padding-top:13.5%;
-    text-align: center;
-    text-shadow: -3px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    padding-top:35.5%;
+    margin-bottom:10%; 
+    text-shadow: -3px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;  
     }
-
-.quote3{
-    font-size: 45px;
-    color: white;
-    font-family: 'Abril Fatface', cursive;
-    position: absolute;
-    top:0;
-    right:0;
-    padding-top:3.5%;
-    padding-right:28%;
-    text-shadow: -3px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
-    }
-
-.wrapper {
-    position:relative;
-    width:100%;
-    height: 680px;
-    
-  }
 
   .gameplay{
     top:0;

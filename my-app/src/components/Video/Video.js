@@ -12,25 +12,25 @@ const Video = () => {
             <div className="row">
                 <div className="col-3">
                     <div className="row">
-                    <ReactPlayer url='https://www.twitch.tv/videos/456243224' />
+                        <ReactPlayer width="300px" height="200px" url='https://www.twitch.tv/videos/456243224' />
                     </div>
-        </div>
+                </div>
 
-        <div className="col-3">
-            <div className="row">
-            <ReactPlayer url='https://www.twitch.tv/videos/455736203' />
-            </div> 
+                <div className="col-3">
+                    <div className="row">
+                        <ReactPlayer width="300px" height="200px" url='https://www.twitch.tv/videos/455736203' />
+                    </div>
+                </div >
+
+                <div className="col-3">
+                    <div className="row">
+                        <ReactPlayer width="300px" height="200px" url='https://www.twitch.tv/videos/454164029' />
+                    </div>
+
+
+                </div>
             </div >
-
-    <div className="col-3">
-        <div className="row">
-            <ReactPlayer url='https://www.twitch.tv/videos/454164029' />
-            </div>
-
-            
-    </div>
         </div >
-        </div >
-            )
-    }
+    )
+}
 export default Video;

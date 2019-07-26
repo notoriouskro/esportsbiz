@@ -14,11 +14,11 @@ class Quotes extends Component {
                 </div>
                 <div className="wrapper">
                 <img src="/images/playing2.jpg" className="gameplay" />
-                    <p className="quote3">"Aren't these games just for kids?" </p>
+                    <p className="quote">"Aren't these games just for kids?" </p>
                 </div>
                 <div className="wrapper">
                 <img src="/images/playing3.jpg" className="gameplay" />
-                    <p className="quote2">"Are ESports just a fad?"</p>
+                    <p className="quote">"Are ESports just a fad?"</p>
                 </div>
             </Carousel>
         );
