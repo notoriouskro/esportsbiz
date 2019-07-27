@@ -1,3 +1,4 @@
+@media only screen and (min-width: 601px) {
 .col-3 {
     margin: 0 auto;
     /* border: 3px solid green; */
@@ -6,7 +7,7 @@
     background-color: #bec3cb;
     background-image: linear-gradient(rgb(115, 136, 244), rgb(122, 235, 118));
     margin: 0% auto;
-    padding: 15px;
+    padding: 10px;
 }
 .gameIcon{
     height: 65%;
@@ -39,3 +40,50 @@ button {
   .row{
     text-align: center;
   }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .gameContainer{
+        background-color: #bec3cb;
+        background-image: linear-gradient(rgb(115, 136, 244), rgb(122, 235, 118));
+        margin: 0% auto;
+        max-width: 100%;
+    }
+    .col-3 {
+        margin: 0 auto; 
+        /* border: 3px solid green; */
+        text-overflow: ellipsis;
+        font-size: 10px;
+        max-width: 75ch;
+        
+    }
+    .gameIcon{
+        height: 95%;
+        width: 95%;
+        margin: 0 auto;
+        padding: 7px;
+       }
+    
+    h1{
+        margin: 0 auto;
+        font-family: 'Bangers', cursive;
+    }
+    
+    button {
+        background-color: rgb(27, 10, 77); 
+        border: solid black 2px;
+        color: white;
+        padding: 12px 32px;
+        margin: 5%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        font-family: 'Bangers', cursive;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        
+      }
+
+}

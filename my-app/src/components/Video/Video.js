@@ -12,19 +12,19 @@ const Video = () => {
             <div className="row">
                 <div className="col-3">
                     <div className="row">
-                        <ReactPlayer width="300px" height="200px" url='https://www.twitch.tv/videos/456243224' />
+                        <ReactPlayer className="twitch" url='https://www.twitch.tv/videos/456243224' />
                     </div>
                 </div>
 
                 <div className="col-3">
                     <div className="row">
-                        <ReactPlayer width="300px" height="200px" url='https://www.twitch.tv/videos/455736203' />
+                        <ReactPlayer className="twitch" url='https://www.twitch.tv/videos/455736203' />
                     </div>
                 </div >
 
                 <div className="col-3">
                     <div className="row">
-                        <ReactPlayer width="300px" height="200px" url='https://www.twitch.tv/videos/454164029' />
+                        <ReactPlayer className="twitch" url='https://www.twitch.tv/videos/454164029' />
                     </div>
 
 
