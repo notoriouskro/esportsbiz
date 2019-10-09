@@ -1,7 +1,5 @@
 import React from 'react';
 import './Game.css'
-import ReactPlayer from 'react-player'
-
 
 
 const Game = () => {

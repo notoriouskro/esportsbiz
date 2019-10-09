@@ -1,5 +1,8 @@
 import React from 'react';
-import './Navbar.css'
+import './Navbar.css';
+import { BrowserRouter as Router, Link } from "react-router-dom";
+
+
 
 
 const Navbar = () => {
@@ -11,22 +14,25 @@ const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
+                    <Router>
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Overview <span className="sr-only">(current)</span></a>
+                    <Link exact path="/" className="nav-link">Overview<span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="../../pages/Overwatch/Overwatch">Games</a>
+                        <Link to="/Overwatch" className="nav-link">Overwatch</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Teams</a>
+                    <Link to="/LOL" className="nav-link">League of Legends</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Marketing</a>
+                    <Link to="/Dota2" className="nav-link">Dota2</Link>
                     </li>
+                    </Router>
                 </ul>
             </div>
         </nav>
     )
 }
+
 export default Navbar;
 
